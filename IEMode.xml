@@ -1,0 +1,38 @@
+<site-list version="205">
+	<!--- File creation header --->
+	<created-by>
+		<tool>EnterpriseSiteListManager</tool>
+		<version>10586</version>
+		<date-created>20150728.135021</date-created>
+	</created-by>
+  	<!--- Begin Site List ---> 
+	<site url="https://docs.microsoft.com/en-us/internet-explorer/ie11-deploy-guide/">
+		<compat-mode>IE8Enterprise</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	<site url="www.woodgrovebank.com">
+		<compat-mode>default</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	<site url="adatum.com">
+		<compat-mode>IE7Enterprise</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	<site url="relecloud.com"/>  
+	<!-- default for self-closing XML tag is 
+		<compat-mode>default</compat-mode>
+		<open-in>none</open-in>
+	-->
+	<site url="relecloud.com/products">  
+		<compat-mode>IE8Enterprise"</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	<site url="contoso.com/travel">
+		<compat-mode>IE7</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	<site url="fabrikam.com">
+		 <compat-mode>IE7</compat-mode>
+		 <open-in>IE11</open-in>
+	</site>
+</site-list>
